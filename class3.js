@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // File System
 
 var fs = require('fs');
@@ -59,3 +60,22 @@ fs.rename('file2.txt', 'renamed file2.txt', (err) => {
     if (err) throw err
     console.log('File2 is renamed')
 })
+=======
+// Function in javascript
+
+function name(para1, para2) {
+
+}
+
+function multiplication(x, y, c = 0) {
+    return x * y * c
+}
+let z = multiplication(5, 10, 7)
+console.log(z);
+
+// Arrow functions
+mul = (a, b) => {
+    return a * b;
+}
+console.log(mul);
+>>>>>>> fffa189786a666c4d591004f987d21061ec6e1e4
